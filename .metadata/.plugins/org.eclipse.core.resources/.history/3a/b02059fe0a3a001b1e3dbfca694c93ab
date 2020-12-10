@@ -1,0 +1,9 @@
+package com.classic.web.client.api.exception;
+
+public class BookMyShowClientException extends Exception {
+
+	public BookMyShowClientException(String message)
+	{
+		super();
+	}
+}

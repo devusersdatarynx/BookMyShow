@@ -1,0 +1,14 @@
+package com.classic.web.client.api.exception;
+
+public class BookMyShowClientException extends Exception {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public BookMyShowClientException(String message)
+	{
+		super(message);
+	}
+}
